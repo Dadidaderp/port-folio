@@ -51,13 +51,24 @@ h1 {
     margin-left: 10%;
 }
 
+.language {
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
 .barre {
-    border: 0px solid #666;
+    margin top: -15%;
+    margin-left: 16%;
+    border-radius: 10px;
+    border: 1px solid #666;
     width: 200px;
     height: 30px
 }
 
 .jauge {
+    margin-top: 0%;
+    margin-left: 0%;
     border-radius: 10px;
     background: limegreen;
     height: 100%;
