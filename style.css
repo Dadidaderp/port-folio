@@ -43,7 +43,7 @@ h1 {
     text-align: center;
     margin-top: 2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: limegreen;
+    color: dodgerblue;
 }
 
 .experiences {
@@ -57,25 +57,35 @@ h1 {
     font-size: 25px;
 }
 
-.barre {
-    margin top: -15%;
-    margin-left: 16%;
-    border-radius: 10px;
-    border: 1px solid #666;
-    width: 200px;
-    height: 30px
+.C{
+    position:absolute;
+    margin: 2% 10% 100% 10%;
 }
 
-.jauge {
-    margin-top: 0%;
-    margin-left: 0%;
-    border-radius: 10px;
-    background: limegreen;
-    height: 100%;
-    width: 30%;
+.java{
+    position:absolute;
+    margin: 2% 10% 100% 30%;
 }
 
+.html {
+    position:absolute;
+    margin: 6% 10% 100% 10%;
+}
 
+.css {
+    position:absolute;
+    margin: 6% 10% 100% 30%;
+}
+
+.php {
+    position:absolute;
+    margin: 6% 10% 100% 50%;
+}
+
+.otherskills {
+    margin-top: 10%;
+    margin-left: 10%;
+}
 /*
 *******************************
 ** Style pour menu principal **
