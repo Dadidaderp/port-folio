@@ -1,0 +1,221 @@
+.pbody {
+    background-image: url("images/wallpaper.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.cv_body {
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nom {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.photo {
+    margin-left: 50%;
+}
+
+.mail {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.adresse {
+    font-size: 15px;
+    margin-left: 10%;
+}
+
+.title_adresse {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.title_experiences {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: limegreen;
+}
+
+.experiences {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.language {
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+.barre {
+    margin top: -15%;
+    margin-left: 16%;
+    border-radius: 10px;
+    border: 1px solid #666;
+    width: 200px;
+    height: 30px
+}
+
+.jauge {
+    margin-top: 0%;
+    margin-left: 0%;
+    border-radius: 10px;
+    background: limegreen;
+    height: 100%;
+    width: 30%;
+}
+
+
+/*
+*******************************
+** Style pour menu principal **
+*******************************
+*/
+
+#menu-principal,
+#menu-principal ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu-principal li {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+
+#menu-principal ul li {
+    display: inherit;
+    border-radius: 0;
+}
+
+#menu-principal ul li:hover {
+    border-radius: 0;
+}
+
+#menu-principal ul li:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+#menu-principal ul {
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+}
+
+#menu-principal li:hover ul {
+    max-height: 15em;
+}
+
+
+/* background des liens menus */
+
+#menu-principal li:first-child {
+    background-color: #65537A;
+    background-image: -webkit-linear-gradient(top, #808080 0%, #808080 100%);
+    background-image: linear-gradient(to bottom, cornflowerblue 0%, darkblue 100%);
+}
+
+#menu-principal li:nth-child(2) {
+    background-color: #729EBF;
+    background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+    background-image: linear-gradient(to bottom, cornflowerblue 0%, darkblue 100%);
+}
+
+#menu-principal li:nth-child(3) {
+    background-color: #F6AD1A;
+    background-image: -webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+    background-image: linear-gradient(to bottom, cornflowerblue 0%, darkblue 100%);
+}
+
+#menu-principal li:last-child {
+    background-color: #CFFF6A;
+    background-image: -webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
+    background-image: linear-gradient(to bottom, cornflowerblue 0%, darkblue 100%);
+}
+
+
+/* background des liens sous menus */
+
+#menu-principal li:first-child li {
+    background: darkblue;
+}
+
+#menu-principal li:nth-child(2) li {
+    background: darkblue;
+}
+
+#menu-principal li:nth-child(3) li {
+    background: darkblue;
+}
+
+#menu-principal li:last-child li {
+    background: darkblue;
+}
+
+
+/* background des liens menus et sous menus au survol */
+
+#menu-principal li:first-child:hover,
+#menu-principal li:first-child li:hover {
+    background: cornflowerblue;
+}
+
+#menu-principal li:nth-child(2):hover,
+#menu-principal li:nth-child(2) li:hover {
+    background: cornflowerblue;
+}
+
+#menu-principal li:nth-child(3):hover,
+#menu-principal li:nth-child(3) li:hover {
+    background: cornflowerblue;
+}
+
+#menu-principal li:last-child:hover,
+#menu-principal li:last-child li:hover {
+    background: cornflowerblue;
+}
+
+
+/* les a href */
+
+#menu-principal a {
+    text-decoration: none;
+    display: block;
+    padding: 19px 143px;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+}
+
+#menu-principal ul a {
+    padding: 8px 0;
+}
+
+#menu-principal li:hover li a {
+    color: #fff;
+    text-transform: inherit;
+}
+
+#menu-principal li:hover a,
+#menu-principal li li:hover a {
+    color: #000;
+}
