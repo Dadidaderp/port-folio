@@ -43,7 +43,7 @@ h1 {
     text-align: center;
     margin-top: 2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: limegreen;
+    color: dodgerblue;
 }
 
 .experiences {
@@ -70,7 +70,7 @@ h1 {
     margin-top: 0%;
     margin-left: 0%;
     border-radius: 10px;
-    background: limegreen;
+    background: dodgerblue;
     height: 100%;
     width: 30%;
 }
