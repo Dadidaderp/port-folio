@@ -1,0 +1,477 @@
+body{
+
+    background-image: url("images/wallpaper.jpeg"); 
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+p{
+    font-size: x-large;
+    color: #660033;
+}
+
+f
+{
+    color: red;
+}
+
+v
+{
+    color: green;
+    
+}
+
+h1
+{
+    text-align: center;
+    color: black; 
+}
+
+.tdi {
+    text-align: center;
+    width: 1px;
+    height: 1px;
+    padding: 3px;
+    margin: 3px;
+    border: none;
+    cursor: url("images/zob.png"), default;
+}
+
+.connexionFailed
+{
+ text-align: center;
+}
+
+.connexionSucced
+{
+    text-align: center;
+}
+
+.deconnection
+{
+    text-align: center;
+}
+
+form label{
+
+    display: inline-block;
+    width: 140px;
+}
+
+
+fieldset {
+    margin-bottom: 15px;
+    margin-left: 37%;
+    padding: 10px;
+    width: 25%;
+    font-size: large;
+}
+
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
+.slideshow {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #F2F2F2;
+    margin-top: 5%;
+    margin-left: 29%;
+}
+
+#presentation_index { 
+    text-align: center; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.slideshow ul {
+    width: 400%;
+    height: 200px;
+    padding:0; margin:0;
+    list-style: none;
+}
+.slideshow li {
+    float: left;
+}
+
+.plan_site {
+    margin-top: 7%;
+    margin-left: 34%;
+    border: 1px solid #010101;
+}
+
+.FemmeTel {
+    margin-top: 7%;
+    margin-left: 30%;
+    border: 1px solid #010101;
+}
+
+.textePlanSite {
+    margin-top: 1%;
+    margin-left: 35%;
+    border: 1px solid #010101;
+    font-size: x-large;
+    width:540px;
+    height:40px;
+    background-color:#76B2C1;
+}
+
+#ContactPara {
+    margin-top: -14%;
+    margin-left: 45%;
+    border: 1px solid #010101;
+    font-size: x-large;
+    width:570px;
+    height:250px;
+    background-color:#76B2C1;
+}
+.titre
+{
+    text-align: center;
+    font-size: x-large;
+}
+
+.sous_titre {
+    text-align: center;
+    margin-left: 29%;
+}
+
+.sous_titre_modele {
+    text-align: center;
+    margin-left: 30%;
+}
+
+.index{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    border: 1px solid black;
+    font-size: x-large;
+    width:50%;
+    height:6%;
+    background-color: #76B2C1;
+    color: black;
+}
+
+.faq{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    border: 1px solid black;
+    font-size: x-large;
+    width:50%;
+    height:10%;
+    background-color: #76B2C1;
+    color: black;
+}
+
+.recap
+{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    border: 1px solid black;
+    font-size: x-large;
+    width:50%;
+    height:20%;
+    background-color: #76B2C1;
+    color: black;
+}
+
+.commandes
+{
+    background-color: #76B2C1;
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid black;
+}
+
+
+
+.error
+{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    border: 1px solid black;
+    font-size: x-large;
+    width:50%;
+    height:10%;
+    background-color: red;
+    color: black;
+}
+
+.valider
+{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    border: 1px solid black;
+    font-size: x-large;
+    width:50%;
+    height:10%;
+    background-color: green;
+    color: black;    
+}
+
+#login{
+    position: absolute;
+    margin: -6% 1% 1% 80%;
+    font-size: large;
+    color: darkblue;
+}
+
+#regist{
+
+    margin-top: 7%;
+    text-align: center;
+}
+
+.location
+{
+    
+    color: black;
+}
+
+#m5 {
+
+    position: absolute;
+}
+
+
+.logo {
+
+    text-align: center;
+    margin-left: 10%
+}
+
+#logo-page-audi {
+    text-align: center;
+}
+
+.fiche-technique {
+    margin-right:  8%;
+}
+
+.audi {
+    margin-right: 1.5%;
+}
+
+.bmw {
+    margin-right: 1.5%;
+}
+
+#bmw-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 4% 10% 100% 30%;
+}
+
+#audi-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 7% 10% 100% 9%;
+}
+
+#mini-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 5% 10% 100% 45%
+}
+
+#nissan-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 4% 10% 100% 70%;
+}
+
+
+#logo-page-mini {
+    text-align: center;
+}
+
+#logo-page-nissan {
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+#nissan-gtr {
+    margin-top: 4%;
+    text-align: center;
+}
+
+#menu-principal, #menu-principal ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+}
+#menu-principal li{
+    display:inline-block;
+    position:relative;
+    border-radius:8px 8px 0 0;
+}
+#menu-principal ul li{
+    display:inherit;
+    border-radius:0;
+}
+#menu-principal ul li:hover{
+    border-radius:0;
+}
+#menu-principal ul li:last-child{
+    border-radius:0 0 8px 8px;
+}
+#menu-principal ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+}
+#menu-principal li:hover ul{
+    max-height:15em;
+}
+/* background des liens menus */
+#menu-principal li:first-child{
+    background-color: #65537A;
+    background-image:-webkit-linear-gradient(top, #808080 0%, #808080 100%);
+    background-image:linear-gradient(to bottom, #808080 0%, #393C3C 100%);
+}
+#menu-principal li:nth-child(2){
+    background-color: #729EBF;
+    background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+    background-image:linear-gradient(to bottom, #808080 0%, #393C3C 100%);
+}
+#menu-principal li:nth-child(3){
+    background-color: #F6AD1A;
+    background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+    background-image:linear-gradient(to bottom, #808080 0%, #393C3C 100%);
+}
+#menu-principal li:last-child{
+    background-color: #CFFF6A;
+    background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
+    background-image:linear-gradient(to bottom, #808080 0%, #393C3C 100%);
+}
+/* background des liens sous menus */
+#menu-principal li:first-child li{
+    background:#393C3C;
+}
+#menu-principal li:nth-child(2) li{
+    background:#393C3C;
+}
+#menu-principal li:nth-child(3) li{
+    background:#393C3C;
+}
+#menu-principal li:last-child li{
+    background:#393C3C;
+}
+/* background des liens menus et sous menus au survol */
+#menu-principal li:first-child:hover, #menu-principal li:first-child li:hover{
+    background:#8E8E8E;
+}
+#menu-principal li:nth-child(2):hover, #menu-principal li:nth-child(2) li:hover{
+    background:#8E8E8E;
+}
+#menu-principal li:nth-child(3):hover, #menu-principal li:nth-child(3) li:hover{
+    background:#8E8E8E;
+}
+#menu-principal li:last-child:hover, #menu-principal li:last-child li:hover{
+    background:#8E8E8E;
+}
+/* les a href */
+#menu-principal a{
+    text-decoration:none;
+    display:block;
+    padding:19px 143px;
+    color:#fff;
+    font-family:arial;
+    font-size: 20px;
+}
+#menu-principal ul a{
+    padding:8px 0;
+}
+#menu-principal li:hover li a{
+    color:#fff;
+    text-transform:inherit;
+}
+#menu-principal li:hover a, #menu-principal li li:hover a{
+    color:#000;
+}
+
+
+
+.message
+{
+    text-color: red;
+    text-align: center;
+}
+
+.bouton
+{
+    height: 50px;
+    background-color: #4AB1DE;
+    color: black;
+    float: center;
+    width: 25%;
+    font-size: large;
+}
+
+.boutonCommander
+{
+    height: 30px;
+    width: 100%;
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
+.boutonConnexion
+{
+    height:40px;
+    width: 100%;
+    color: black;
+    background-color: #3cb371;
+    text-align: center;
+}
+
+.inscrit
+{
+    height: 30px;
+    width: 100%;
+    background-color: #4AB1DE;
+    color: black;
+    text-align: center;
+}
+
+.supprimer
+{
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.page
+{
+    background-color:white ;
+    width:100px ;
+    
+}
+

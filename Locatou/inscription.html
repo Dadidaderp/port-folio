@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Locatou</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href= "style.css"/>
+
+    <header>
+        <p class="titre">
+            <a href="index.php"> <img src="images/titre.png" alt="Titre" /> </a>
+        </p>
+        <div id="login">
+            
+                
+                <br>
+                Déjà inscris ?
+                <br>
+                <input class="inscrit" type="button" name="login" value="Se connecter" onclick="self.location.href='login.php'">
+                                                                                                                                                                                                   
+        </div>
+
+         <ul id="menu-principal">
+            <li><a href="menu_modeles.php">Location</a>
+                <ul>
+                    <li><a href="audi.php">Audi</a></li>
+                    <li><a href="bmw.php">BMW</a></li>
+                    <li><a href="mini.php">Mini</a></li>
+                    <li><a href="nissan.php">Nissan</a></li>
+                </ul>
+            </li>
+            <li><a href="#">A propos</a>
+                <ul>
+                    <li><a href="contact.php">Nous contacter</a></li>
+                    <li><a href="plan_du_site.php">Nos agences</a></li>
+                    <li><a href="faq.php">FAQ</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Mon compte</a>
+                <ul>
+                    <li><a href="commandes.php">Mes commandes</a></li>
+                    <li><a href="moncompte.php">Mon compte</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </header>
+    <img class="sous_titre" src="images/sous_titre.png" alt="SousTitre">
+    
+    </head>
+
+    <body>
+
+    <br>
+    <br>
+
+    <div id="louer">
+
+        <form method="post" action="inscription.php">
+            <fieldset>
+                <legend>Formulaire d'inscription</legend>
+                <label>Nom : </label><input type="text" name="nom" required=""/><br/>
+                <label>Prenom : </label><input type="text" name="prenom" required=""/><br/>
+                <label>Adresse : </label><input type="text" name="adresse" required=""/><br/>
+                <label>Code postal : </label><input type="text" name="codePostal" pattern="[0-9]{5}" required=""/><br/>
+                <label>Téléphone : </label><input type="tel" name="telephone" pattern="0[0-9]{9}" required=""><br/>
+                <label>Adresse e-mail : </label><input type="text" name="email" required=""/><br/>
+                <label>Login : </label><input type="text" name="login" required=""/><br/>
+                <label>Mot de passe : </label><input type="password" name="password" required=""/><br><br>
+                <input class="inscrit" type="submit" name="inscris" value="Je m'inscris"/>
+            </fieldset>
+        </form>
+
+    </div>
+
+</body>
+</html>
